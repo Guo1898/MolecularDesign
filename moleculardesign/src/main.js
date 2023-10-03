@@ -13,7 +13,7 @@ Vue.config.productionTip = false
 Vue.use(ElementUI);
 Vue.use(HighchartsVue);
 
-Vue.prototype.$API_BASE_URL='http://alphaindex.zju.edu.cn:8088'
+Vue.prototype.$API_BASE_URL=''
 
 new Vue({
   render: h => h(App),
